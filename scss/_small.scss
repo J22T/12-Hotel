@@ -23,6 +23,11 @@ header h2 {margin: 0; font-weight: normal;}
 /*----------- NAVIGATION --------------*/
 nav {
     background-color: #666;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: $secondaryColor;
 }
 nav ul {
     list-style-type: none;
