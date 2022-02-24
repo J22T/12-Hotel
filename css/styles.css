@@ -427,6 +427,10 @@ main {
   padding: 0 2%;
   min-height: 10rem;
 }
+main div#myCards {
+  display: grid;
+  grid-template-columns: 1fr;
+}
 main div#myCards figure {
   margin: 0;
   width: 100%;
@@ -439,8 +443,20 @@ main div#myCards figure figcaption {
   position: absolute;
   bottom: 0;
   background-color: rgba(255, 255, 255, 0.5);
+  color: white;
   width: 100%;
   padding: .5rem 2vw;
+}
+main div#myCards figure div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main div#myCards figure div below span i {
+  float: left;
+  font-size: 1.5rem;
+}
+main div#myCards figure div below span p {
+  padding-left: 1.6rem;
 }
 
 /*----------- FOOTER --------------*/
@@ -482,7 +498,7 @@ footer {
   }
 
   /*----------- MAIN --------------*/
-  main div#inventoryContainer {
+  main div#myCards {
     grid-template-columns: 1fr 1fr;
   }
 

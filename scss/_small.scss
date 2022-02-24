@@ -80,6 +80,9 @@ main {
 
     div#myCards {
 
+        display: grid;
+        grid-template-columns: 1fr;
+
         figure {
             margin: 0;
             width: 100%;
@@ -93,8 +96,23 @@ main {
                         position: absolute;
                         bottom: 0;
                         background-color: rgba(255,255,255,.5);
+                        color: white;
                         width: 100%;
                         padding: .5rem 2vw;
+                    }
+
+                    div {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                    }
+
+                    div below span i {
+                        float: left;
+                        font-size: 1.5rem;
+                    }
+
+                    div below span p {
+                        padding-left: 1.6rem;
                     }
         } // End of figure
     }  // End of myCards CONTAINER
