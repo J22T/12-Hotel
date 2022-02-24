@@ -1,26 +1,26 @@
 [   
     {
-    "name":"Hotel",
-    "photo":"images/hotel.jpg",
-    "address":["1555 North Canyon Dr.","Lexington, VA 88765"],
-    "phone":"1-307-886-1234"
+    "name":"Montage Deer Valley",
+    "photo":"images/hotel_1.jpg",
+    "address":["9100 Marsac Ave Park City, UT 84060-5201"],
+    "phone":"1-435-604-1300"
     },
     {
-    "name":"The Grand America Hotel",
-    "photo":"images/america.jpg",
-    "address":["555 Main St.","Salt Lake City UT, 84111"],
-    "phone":"1-307-886-1234"
+    "name":"The St. Regis Deer Valley",
+    "photo":"images/hotel_2.jpg",
+    "address":["2300 Deer Valley Drive East, Park City, UT 84060"],
+    "phone":"1-435-940-5700"
     },
     {
-    "name":"Four Seasons",
-    "photo":"images/season.jpg",
-    "address":["2019 Pennsylvania Ave","Washington, DC 20125"],
-    "phone":"1-303-389-2000"
+    "name":"Waldorf Astoria Park City",
+    "photo":"images/hotel_3.jpg",
+    "address":["2100 Frostwood Drive, Park City, UT 84098-6522"],
+    "phone":"1-866-886-2818"
     },
     {
-    "name":"Hyatt Place Washington",
-    "photo":"images/hyatt.jpg",
-    "address":["1555 North Canyon Dr.","Lexington VA 88765"],
-    "phone":"1-202-828-2500"
+    "name":"Amangiri",
+    "photo":"images/hotel_4.jpg",
+    "address":["1 Kayenta Road, Canyon Point, Big Water, UT 84741"],
+    "phone":"1-877-695-3999"
     }
 ]

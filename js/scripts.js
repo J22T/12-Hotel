@@ -54,30 +54,31 @@ fetch(apiURL)
 
 
 let theImageTag = document.createElement("img");
-theImageTag.src=myList[i].photo;
+theImageTag.src=theList[i].photo;
+theImageTag.src=theList[i].name;
 console.log(myList[i].photo);
 
 let theHotelTag = document.createElement("figcaption");
-theHotelTag.textContent = myList[i].name;
-console.log(myList[i].name);
+theHotelTag.textContent = theList[i].name;
+console.log(theList[i].name);
 
-let theIconLetTag = document.createElement("i");
+let theIconLeftTag = document.createElement("i");
 theIconLeftTag.className = "icon ion-md-car";
 
 let theAddress1Tag = document.createElement("p");
-theAddress1Tag.textContent = myList[i].address[0];
-console.log(myList[i].address[0]);
+theAddress1Tag.textContent = theList[i].address[0];
+console.log(theList[i].address[0]);
 
 let theAddress2Tag = document.createElement("p");
-theAddress2Tag.textContent = myList[i].address[1];
-console.log(myList[i].address[1]);
+theAddress2Tag.textContent = theList[i].address[1];
+console.log(theList[i].address[1]);
 
 let theIconRightTag = document.createElement("i");
 theIconRightTag.className = "icon ion-md-call";
 
 let thePhoneTag = document.createElement("p");
-thePhoneTag.textContent = myList[i].phone;
-console.log(myList[i].phone);
+thePhoneTag.textContent = theList[i].phone;
+console.log(theList[i].phone);
 
 let theSpanLeftTag = document.createElement("span");
 theSpanLeftTag.appendChild(theIconLeftTag);
