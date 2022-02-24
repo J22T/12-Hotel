@@ -1,6 +1,7 @@
-[   {
-    "name":"Southern Serenade",
-    "photo":"images/serenade.jpg",
+[   
+    {
+    "name":"Hotel",
+    "photo":"images/hotel.jpg",
     "address":["1555 North Canyon Dr.","Lexington, VA 88765"],
     "phone":"1-307-886-1234"
     },
