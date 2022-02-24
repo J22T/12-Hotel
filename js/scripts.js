@@ -9,20 +9,24 @@ fetch(apiURL)
     console.log(myList);
 
 
+
+    console.log(myList.length);
     for (i = 0; i < myList.length; i++) {
+
+
+
+
     
     
-    let myImageTag = document.createElement("img");
-    myImageTag.src = myList[i].photo;
+    let theImageTag = document.createElement("img");
+    theImageTag.src = myList[i].photo;
 
-    let myCaptionTag = document.createElement("figcaption");
-    myCaptionTag.textContent = myList[i].name;
+    let theCaptionTag = document.createElement("figcaption");
+    theCaptionTag.textContent = myList[i].name;
 
-    let myFigureTag = document.createElement("figure");
-    myFigureTag.appendChild(myImageTag);
-    myFigureTag.appendChild(myCaptionTag);
-
-
+    let theFigureTag = document.createElement("figure");
+    theFigureTag.appendChild(theImageTag);
+    theFigureTag.appendChild(theCaptionTag);
 
 
 
@@ -36,8 +40,7 @@ fetch(apiURL)
 
 
 
-
-    document.getElementById('myCards').appendChild(myFigureTag);
+    document.getElementById('myCards').appendChild(theFigureTag);
 
   }
     
