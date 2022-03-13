@@ -1,10 +1,18 @@
-$primaryColor: #f3f6f4;
-$secondaryColor: #fffff;
-$menuColor: gray;
-$menuTextColor: rgba(255,255,255,0.9);
+$primaryColor: #262626;
+$secondaryColor:silver;
+$thirdColor:white;
 
-$fontFamily: 'Kanit', sans-serif;
-$regularWeight: 300;
-$heavyWeight: 700;
+$text: #262626;
 
-$gutter: 10rem;
+$accent: #ED600E;
+
+$menuColor: #262626;
+
+$defaultFont: 'Raleway', sans-serif;
+$mainFont: 'Roboto', sans-serif;
+$normalWeight: 400;
+$boldWeight: 700;
+$lightWeight: 300;
+
+$gutter: 2%;
+$gutterdbl: (2 * $gutter);

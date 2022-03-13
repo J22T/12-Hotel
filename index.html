@@ -1,100 +1,160 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="description" content="Fill Me In">
-<meta name="author" content="John Doe">
-
-<!-- This start file was build by Paul Cheney  -->
-<title>HTML5 Start Site by Paul Cheney</title>
-
-<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+    
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+<meta charset="utf-8">
+<title>Westwind Hotel & Suites</title>
+   
 
-
-
-
-<!-- STYLE SHEETS -->
-<link href="css/styles.css" rel="stylesheet">
-<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
-
-
-     
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700|Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+    <!-- STYLE SHEETS -->
+    <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
-<!-- HEADER HERE -->
-	<header>
- 		<h1>Company Name Here</h1>
-        <h2>Possible Slogan or Tagline</h2>
-    </header>
+<div class="wrapper">
+<!-- PAGE HEADER GOES HERE -->
+    <header>
+     <h1>Westwind Hotel and Suites</h1>
+    </header><!-- end header -->
     
-    
-<!-- NAVIGATION HERE -->
-    <nav class="clearfix">
-        <ul >
-            <li><a href="#"><i class="icon ion-md-car"></i><span>Rooms</span></a></li>
-            <li><a href="#"></a><i class="icon ion-md-checkbox"></i><span>Attractions</span></a></li>
-            <li class="active"><a href="#"><i class="icon ion-md-person"></i><span>Location</span></a></li>
-        </ul>
-    </nav>
-
-
-    <ion-icon name="bicycle"></ion-icon>
-
-    <ion-icon name="bed"></ion-icon>
-
-    <ion-icon name="navigate"></ion-icon>
-
 
     
-    
-<!-- CONTENT HERE -->
-    <main>
-
+<!-- PAGE CONTENT GOES HERE -->
+    <main class="locations">
         <h1>Locations</h1>
-        
-        <div id="myCards">
-        
+    <div class="myLocations"><!-- Hotel FIGURES -->
+
+        <div class="hotel">
+            <figure>
+                <a href="#">
+                    <img src="images/hilton200.jpg" srcset="images/hilton200.jpg 1x, images/hilton400.jpg 2x">
+                    <span>Lexington Airport</span><!-- hotel name -->		
+                </a>
+            </figure>
+            <div class="info">
+                <p><span><i class="fas fa-map-marker"></i></span>
+                    1555 North Canyon Drive, <br> 
+                    Lexington, VA <br> 
+                    12345</p>
+                <p><span><i class="fas fa-phone"></i></span>+1-385-555-1234</p>
+            </div>
         </div>
-
-
-        <!-- <div id="hotelGrid">
-            <section>
-
+        <!-- ----------------------------------------- -->
+        <div class="hotel">
                 <figure>
-                    <img src="" alt="">
-                    <figcaption>Hotel Name Here</figcaption>
+                    <a href="#">
+                        <img src="images/onthehill200.jpg" srcset="images/onthehill200.jpg 1x, images/onthehill400.jpg 2x">
+                        <span>Baltimore Downtown</span><!-- hotel name -->	
+                    </a>
                 </figure>
-                <div>
-                    <span>
-                            <i class="icon ion-md-car"></i>
-                            <p>1234 Address Line Here</p>
-                            <p>City State Zip</p>
-                    </span>
-                    <span>
-                        <i class="icon ion-md-call"></i>
-                        <p>000-000-0000</p>
-                    </span>
+                <div class="info">
+                    <p><span><i class="fas fa-map-marker"></i></span>
+                        2300 North Main St<br> 
+                        </p>
+                    <p><span><i class="fas fa-phone"></i></span>+1-385-555-9875</p>
                 </div>
-                
-                </section>
-        </div> -->
-
-
-
-
-
-
-
-
-
-
-    </main>
     
-<!-- FOOTER HERE -->   
-    <footer>
-        &copy; 2022 &bull; Jordan Taylor &bull; 000-000-0000
-    </footer>
-<script src="js/scripts.js"></script>
+            </div>
+            <!-- ----------------------------------------- -->
+            <div class="hotel">
+                    <figure>
+                        <a href="#">
+                            <img src="images/monaco200.jpg" srcset="images/monaco200.jpg 1x, images/monaco400.jpg 2x">
+                            <span>Kimpton Hotel Monaco</span><!-- hotel name -->		
+                        </a>
+                    </figure>
+                    <div class="info">
+                        <p><span><i class="fas fa-map-marker"></i></span>
+                            15 W 200 S, <br> 
+                            Salt Lake City, UT <br> 
+                            84101</p>
+                        <p><span><i class="fas fa-phone"></i></span>(801) 595-0000</p>
+                    </div>
+        
+                </div>
+                <!-- ----------------------------------------- -->
+                <div class="hotel">
+                        <figure>
+                            <a href="#">
+                                <img src="images/grandamerica200.jpg" srcset="images/grandamerica200.jpg 1x, images/grandamerica400.jpg 2x">
+                                <span>Thie Grand America Hotel</span><!-- hotel name -->		
+                            </a>
+                        </figure>
+                        <div class="info">
+                            <p><span><i class="fas fa-map-marker"></i></span>
+                                555 S Main St, <br> 
+                                Salt Lake City, UT <br> 
+                                84111</p>
+                            <p><span><i class="fas fa-phone"></i></span>(801) 364-5200</p>
+                        </div>
+            
+                    </div>
+                    <!-- ----------------------------------------- -->
+                    <div class="hotel">
+                            <figure>
+                                <a href="#">
+                                    <img src="images/holiday200.jpg" srcset="images/holiday200.jpg 1x, images/holiday400.jpg 2x">
+                                    <span>Holiday Inn Express</span><!-- hotel name -->		
+                                </a>
+                            </figure>
+                            <div class="info">
+                                <p><span><i class="fas fa-map-marker"></i></span>
+                                    206 S West Temple, <br> 
+                                    Salt Lake City, UT <br> 
+                                    84101</p>
+                                <p><span><i class="fas fa-phone"></i></span>(801) 521-9500</p>
+                            </div>
+                
+                        </div>
+                        <!-- ----------------------------------------- -->
+                        <div class="hotel">
+                                <figure>
+                                    <a href="#">
+                                        <img src="images/hyatt200.jpg" srcset="images/hyatt200.jpg 1x, images/hyatt400.jpg 2x">
+                                        <span>Hyatt Place</span><!-- hotel name -->		
+                                    </a>
+                                </figure>
+                                <div class="info">
+                                    <p><span><i class="fas fa-map-marker"></i></span>
+                                        55 North 400 West, <br> 
+                                        Salt Lake City, UT <br> 
+                                        84101</p>
+                                    <p><span><i class="fas fa-phone"></i></span>(801) 456-6300</p>
+                                </div>
+                                <!-- ----------------------------------------- -->
+                            </div>
+
+    </div><!-- end HOTEL FIGURES -->
+    </main><!-- end main -->
+
+<!-- PAGE NAVIGATION GOES HERE -->
+<nav>
+    <div>
+        <a href="index.html">
+            <span><i class="fas fa-calendar-alt"></i></span>
+            <span class="navTitle">ATTRACTIONS</span>
+        </a>
+    </div>
+    <div>
+        <a href="#">
+            <span><i class="fas fa-bed"></i></span>
+            <span class="navTitle">ROOMS</span>
+        </a>
+    </div>
+    <div class="active">
+        <a href="#">
+            <span><i class="fas fa-map-marker"></i></span>
+            <span class="navTitle">LOCATIONS</span>
+        </a>
+    </div>
+    
+</nav><!-- end nav -->
+    
+
+</div><!-- end wrapper -->
 </body>
 </html>

@@ -1,38 +1,33 @@
+main.locations {
+
+
+  .myLocations {
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  }/* end myLocations */
 
 
 
-/*----------- BODY --------------*/
+}/* end main */
 
 
 
-/*----------- HEADER --------------*/
 
 
+/* NAVIGATION */
+nav {
 
-/*----------- NAVIGATION --------------*/
-    nav ul {margin-left: 2%;}
-    nav ul li {width: auto;}
-    nav ul li:first-child a {border-left: 1px solid #777;}
-    nav ul li:last-child a {border-right: 1px solid #777;}
-    nav ul li a{padding: .5rem 1rem;}
+div {
 
+  a {
 
-/*----------- MAIN --------------*/
+    span.navTitle {
+      display: block;
+    }
 
-
-main {
-
-div#myCards {
-    grid-template-columns: 1fr 1fr;
+  }
 }
 
 
-}
 
-
-
-
-
-
-/*----------- FOOTER --------------*/
-    
+}/* end nav */

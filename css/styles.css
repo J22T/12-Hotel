@@ -1,340 +1,103 @@
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-/* Document
-   ========================================================================== */
-/**
- * 1. Correct the line height in all browsers.
- * 2. Prevent adjustments of font size after orientation changes in iOS.
- */
-html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
-}
-
-/* Sections
-   ========================================================================== */
-/**
- * Remove the margin in all browsers.
- */
-body {
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
   margin: 0;
-}
-
-/**
- * Render the `main` element consistently in IE.
- */
-main {
-  display: block;
-}
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/* Grouping content
-   ========================================================================== */
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
-}
-
-/* Text-level semantics
-   ========================================================================== */
-/**
- * Remove the gray background on active links in IE 10.
- */
-a {
-  background-color: transparent;
-}
-
-/**
- * 1. Remove the bottom border in Chrome 57-
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */
-}
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-b,
-strong {
-  font-weight: bolder;
-}
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
-}
-
-/**
- * Add the correct font size in all browsers.
- */
-small {
-  font-size: 80%;
-}
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sub {
-  bottom: -0.25em;
-}
-
-sup {
-  top: -0.5em;
-}
-
-/* Embedded content
-   ========================================================================== */
-/**
- * Remove the border on images inside links in IE 10.
- */
-img {
-  border-style: none;
-}
-
-/* Forms
-   ========================================================================== */
-/**
- * 1. Change the font styles in all browsers.
- * 2. Remove the margin in Firefox and Safari.
- */
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  /* 1 */
+  padding: 0;
+  border: 0;
+  outline: 0;
   font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
-}
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-button,
-input {
-  /* 1 */
-  overflow: visible;
-}
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-button,
-select {
-  /* 1 */
-  text-transform: none;
-}
-
-/**
- * Correct the inability to style clickable types in iOS and Safari.
- */
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-}
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
-}
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
-}
-
-/**
- * Correct the padding in Firefox.
- */
-fieldset {
-  padding: 0.35em 0.75em 0.625em;
-}
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
-}
-
-/**
- * Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-progress {
   vertical-align: baseline;
+  background: transparent;
 }
 
-/**
- * Remove the default vertical scrollbar in IE 10+.
- */
-textarea {
-  overflow: auto;
+body {
+  line-height: 1;
 }
 
-/**
- * 1. Add the correct box sizing in IE 10.
- * 2. Remove the padding in IE 10.
- */
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
-}
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto;
-}
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
-}
-
-/**
- * Remove the inner padding in Chrome and Safari on macOS.
- */
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
-}
-
-/* Interactive
-   ========================================================================== */
-/*
- * Add the correct display in Edge, IE 10+, and Firefox.
- */
-details {
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/*
- * Add the correct display in all browsers.
- */
-summary {
-  display: list-item;
+nav ul {
+  list-style: none;
 }
 
-/* Misc
-   ========================================================================== */
-/**
- * Add the correct display in IE 10+.
- */
-template {
-  display: none;
+blockquote, q {
+  quotes: none;
 }
 
-/**
- * Add the correct display in IE 10.
- */
-[hidden] {
-  display: none;
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
 }
 
 /* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
@@ -343,178 +106,166 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
-/*----------- apply a natural box layout model to all elements --------------*/
+/*  apply a natural box layout model to all elements  */
 * {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/*----------- BODY --------------*/
+/* BODY */
 body {
   font-size: 16px;
-  font-family: Verdana, sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  color: #262626;
+  background-color: #fff;
 }
 
-/*----------- HEADER --------------*/
+/* end body */
+/* WRAPPER */
+.wrapper {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* end wrapper */
+/* HEADER */
 header {
-  padding: .5rem 2%;
-  background-color: #ddd;
+  background-color: #262626;
+  color: #fff;
+  padding: 0.5rem 2%;
+  font-size: 1.5rem;
 }
 
-header h1 {
-  margin: 0;
-}
-
-header h2 {
-  margin: 0;
-  font-weight: normal;
-}
-
-/*----------- NAVIGATION --------------*/
+/* end header */
+/* NAVIGATION */
 nav {
-  background-color: #666;
+  background-color: white;
   position: fixed;
   bottom: 0;
-  width: 100%;
-  z-index: 999;
-  background-color: red;
+  width: 100vw;
+  border-top: 1px solid white;
   display: flex;
 }
-
-nav ul {
-  display: flex;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav ul li {
-  flex-basis: 33.3%;
-  float: left;
-  width: 25%;
-}
-
-nav ul li a {
-  display: block;
-  width: 100%;
-  text-transform: uppercase;
-  background-color: #444;
-  color: #eee;
-  border-left: 1px solid #777;
-  padding: .5rem 0;
-  text-decoration: none;
-  font-size: .9rem;
+nav div {
+  flex-basis: 33.33%;
   text-align: center;
+  border-right: 1px solid white;
 }
-
-nav ul li:first-child a {
-  border-left: none;
+nav div a {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.7rem;
+  padding: .5rem 0;
+  color: white;
+  text-decoration: none;
 }
-
-nav ul li a:hover {
-  background-color: #eee;
-  color: #333;
+nav div a span.navTitle {
+  display: block;
+  font-size: 1.2rem;
+  color: black;
 }
-
-nav ul li.active a {
-  background-color: #000;
+nav div a i {
+  color: black;
+}
+nav div.active a {
+  background-color: silver;
   color: #fff;
 }
 
-/*----------- MAIN --------------*/
-main {
-  padding: 0 2%;
-  min-height: 10rem;
+/* end nav */
+/* MAIN */
+main.locations {
+  /* end myLocations */
 }
-main div#myCards {
+main.locations h1 {
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  margin: 1rem 2%;
+}
+main.locations .myLocations {
   display: grid;
   grid-template-columns: 1fr;
+  grid-auto-rows: auto;
+  justify-items: center;
+  grid-row-gap: 10px;
+  margin: 0 0 5rem 0;
+  /* end div */
 }
-main div#myCards figure {
-  margin: 0;
+main.locations .myLocations div.hotel {
   width: 100%;
+  height: auto;
+  padding: .75em;
+  background-color: #262626;
+  /* end figure */
+}
+main.locations .myLocations div.hotel figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main.locations .myLocations div.hotel figure a {
+  width: 95%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
   position: relative;
 }
-main div#myCards figure img {
-  width: 100%;
-}
-main div#myCards figure figcaption {
+main.locations .myLocations div.hotel figure a span {
   position: absolute;
+  display: block;
   bottom: 0;
-  background-color: rgba(255, 255, 255, 0.5);
-  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
-  padding: .5rem 2vw;
+  padding: .3rem 2%;
+  color: white;
+  font-size: 2rem;
 }
-main div#myCards figure div {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+main.locations .myLocations div.hotel figure img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
 }
-main div#myCards figure div below span i {
-  float: left;
-  font-size: 1.5rem;
+main.locations .myLocations div.hotel figure figcaption {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  padding: .2rem 0;
+  color: silver;
 }
-main div#myCards figure div below span p {
-  padding-left: 1.6rem;
+main.locations .myLocations div.hotel .info {
+  margin: .5em 0;
+  display: flex;
+}
+main.locations .myLocations div.hotel .info p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: silver;
+  font-family: "Roboto", sans-serif;
+}
+main.locations .myLocations div.hotel .info p span {
+  font-size: 2.7rem;
+  margin: 0 .5em;
 }
 
-/*----------- FOOTER --------------*/
-footer {
-  background-color: #ddd;
-  padding: .5rem 2%;
-  text-align: center;
-}
-
-/*----- Clearfix: Force an Element not to collapse -----*/
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-@media only screen and (min-width: 35rem) {
-  /*----------- BODY --------------*/
-  /*----------- HEADER --------------*/
-  /*----------- NAVIGATION --------------*/
-  nav ul {
-    margin-left: 2%;
+/* end main */
+@media only screen and (min-width: 29rem) {
+  main.locations {
+    /* end myLocations */
   }
-
-  nav ul li {
-    width: auto;
-  }
-
-  nav ul li:first-child a {
-    border-left: 1px solid #777;
-  }
-
-  nav ul li:last-child a {
-    border-right: 1px solid #777;
-  }
-
-  nav ul li a {
-    padding: .5rem 1rem;
-  }
-
-  /*----------- MAIN --------------*/
-  main div#myCards {
+  main.locations .myLocations {
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
   }
 
-  /*----------- FOOTER --------------*/
-}
-/* end of media query */
-@media only screen and (min-width: 64rem) {
-  header, nav, main, footer {
-    max-width: 64rem;
-    margin: auto;
+  /* end main */
+  /* NAVIGATION */
+  nav div a span.navTitle {
+    display: block;
   }
 
-  /*----------- BODY --------------*/
-  /*----------- HEADER --------------*/
-  /*----------- NAVIGATION --------------*/
-  /*----------- MAIN --------------*/
-  /*----------- FOOTER --------------*/
+  /* end nav */
 }
-/* end of media query */
