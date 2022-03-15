@@ -14,7 +14,7 @@ body {
 }/* end body */
 
 /* WRAPPER */
-.wrapper {
+.container {
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -22,10 +22,14 @@ body {
 
 /* HEADER */
 header {
-  background-color: $primaryColor;
+  background-color: $secondaryColor;
   color: #fff;
   padding: .5rem $gutter;
   font-size: 1.5rem;
+
+  h1 {
+    color: black;
+  }
 }/* end header */
 
 
@@ -43,43 +47,45 @@ header {
 
 /* NAVIGATION */
 nav {
-  background-color: $thirdColor;
+  background-color: silver;
   position: fixed;
   bottom: 0;
   width: 100vw;
-  border-top: 1px solid $thirdColor;
+  border-top: 1px solid $primaryColor;
   display: flex;
 
   div {
     flex-basis: 33.33%;
     text-align: center;
-    border-right: 1px solid $thirdColor;
+    border-right: 1px solid $primaryColor;
   }//end div
 
-  div a {
+  a {
     display: flex;
     flex-direction: column;
     font-size: 1.7rem;
     padding: .5rem 0;
-    color: $thirdColor;
+    color: $primaryColor;
     text-decoration: none;
 
     span.navTitle {
       display: block;
-      font-size: 1.2rem;
-      color: black
-    }
-
-    i {
+      font-size: 1rem;
+      font-weight: bold;
       color: black;
     }
-
   }
 
   div.active a {
     background-color: $secondaryColor;
-    color: #fff;
+    color: black;
   }
+
+  span ion-icon {
+    font-size: 30px;
+  }
+
+
 
 }/* end nav */
 
@@ -119,8 +125,7 @@ main.locations{
     width: 100%;
     height: auto;
     padding: .75em;
-    
-    background-color: $primaryColor;
+    background-color: $secondaryColor;
 
     figure {
       display: flex;
@@ -138,10 +143,11 @@ main.locations{
           position: absolute;
 	      	display: block;
 	      	bottom: 0;
-	      	background-color: rgba(0,0,0,0.3);
+	      	background-color: rgba(255,255,255,0.3);
 	       	width: 100%;
 	      	padding: .3rem 2%;
-	      	color: white;
+	      	color: black;
+          font-weight: bold;
 	      	font-size: 2rem;
         }
 
@@ -165,7 +171,7 @@ main.locations{
         display: flex;
         flex-direction: row;
         align-items: center;
-        color:$secondaryColor;
+        color:$primaryColor;
         font-family: $mainFont;
 
         span {

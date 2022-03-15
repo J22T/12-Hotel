@@ -124,7 +124,7 @@ body {
 
 /* end body */
 /* WRAPPER */
-.wrapper {
+.container {
   position: relative;
   width: 100vw;
   height: 100vh;
@@ -133,46 +133,50 @@ body {
 /* end wrapper */
 /* HEADER */
 header {
-  background-color: #262626;
+  background-color: silver;
   color: #fff;
   padding: 0.5rem 2%;
   font-size: 1.5rem;
+}
+header h1 {
+  color: black;
 }
 
 /* end header */
 /* NAVIGATION */
 nav {
-  background-color: white;
+  background-color: silver;
   position: fixed;
   bottom: 0;
   width: 100vw;
-  border-top: 1px solid white;
+  border-top: 1px solid #262626;
   display: flex;
 }
 nav div {
   flex-basis: 33.33%;
   text-align: center;
-  border-right: 1px solid white;
+  border-right: 1px solid #262626;
 }
-nav div a {
+nav a {
   display: flex;
   flex-direction: column;
   font-size: 1.7rem;
   padding: .5rem 0;
-  color: white;
+  color: #262626;
   text-decoration: none;
 }
-nav div a span.navTitle {
+nav a span.navTitle {
   display: block;
-  font-size: 1.2rem;
-  color: black;
-}
-nav div a i {
+  font-size: 1rem;
+  font-weight: bold;
   color: black;
 }
 nav div.active a {
   background-color: silver;
-  color: #fff;
+  color: black;
+}
+nav span ion-icon {
+  font-size: 30px;
 }
 
 /* end nav */
@@ -198,7 +202,7 @@ main.locations .myLocations div.hotel {
   width: 100%;
   height: auto;
   padding: .75em;
-  background-color: #262626;
+  background-color: silver;
   /* end figure */
 }
 main.locations .myLocations div.hotel figure {
@@ -217,10 +221,11 @@ main.locations .myLocations div.hotel figure a span {
   position: absolute;
   display: block;
   bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   width: 100%;
   padding: .3rem 2%;
-  color: white;
+  color: black;
+  font-weight: bold;
   font-size: 2rem;
 }
 main.locations .myLocations div.hotel figure img {
@@ -243,7 +248,7 @@ main.locations .myLocations div.hotel .info p {
   display: flex;
   flex-direction: row;
   align-items: center;
-  color: silver;
+  color: #262626;
   font-family: "Roboto", sans-serif;
 }
 main.locations .myLocations div.hotel .info p span {
